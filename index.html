@@ -66,7 +66,7 @@
             <input
               type="text"
               placeholder="Search here "
-              class="input input-bordered lg:w-80  md:w-40 rounded-full "
+              class="text-black input input-bordered lg:w-80  md:w-40 rounded-full "
             />
             
             <img class="absolute top-1 right-2 w-6 h-6 m-2" width="50" height="50" src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1"/>
@@ -117,7 +117,7 @@
 
     <div class="container mx-auto p-2">
 
-      <div class="carousel h-48 md:h-full lg:h-full w-full ">
+      <div class="carousel h-48 md:h-full lg:h-full w-full opacity-75 z-10 ">
          <!-- slide1 -->
 
         <div id="slide1" class="carousel-item relative w-full">
@@ -128,7 +128,7 @@
           </div>
     
          
-          <div class="lg:-mt-14 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <div class="z-20 lg:-mt-14 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
             <h2 class="text-lg lg:text-6xl font-semibold text-white">Exotic tastes at your <br class="lg:"> doorstep</h2>
             <p class="text-xs lg:text-lg md:text-sm text-white mt-2">We supply highly quality organic products</p>
             <button class="btn btn-primary mt-4 bg-[#F85559] border-none hover:bg-[#b33437] text-white font-bold text-bold">Shop Now</button>
@@ -702,7 +702,17 @@
 
 <!--why choose us section-->
 <section>
-  <div class="container mx-auto mb-20">
+  <div class="container mx-auto mb-20 p-4">
+
+
+    <div>
+      <h1 class="font-extrabold text-5xl text-center ">Why Choose Us</h1>
+      
+      <p class=" mt-6 p-4 font-semibold text-lg text-center " >Contrary to popular belief, is not simply random text. It has roots in a piece of  <br>classical  Latin literature from 45 BC, making it over 2000 years old.
+        
+      </p>
+    
+    </div>
     
      <div class="grid grid-cols-1 lg:grid-cols-3">
 <!--left content-->
@@ -856,15 +866,13 @@
       <a class="btn btn-ghost normal-case font-bold text-4xl">Fruit Burst</a>
     </div>
 
-   <div class="grid grid-cols-4 justify-items-center md:grid-cols-6 justify-center  gap-4">
-  <a class="link link-hover">Home</a>
-  <a class="link link-hover">About us</a>
-  <a class="link link-hover">Shop</a>
-  <a class="link link-hover">All Fruits</a>
-  <div class=" ">
-    <a class="  link link-hover ">Support</a>
-  </div>
-  <a class="  link link-hover">My_Account</a>
+    <div class="flex flex-wrap lg:flex-nowrap justify-center gap-8 lg:gap-14 items-center text-white text-sm md:text-lg font-bold mt-3 lg:mt-10">
+    <p>Home</p>
+    <p>About Us</p>
+    <p>Shop</p>
+    <p>All Fruits</p>
+    <p>Support</p>
+    <p>My Account</p>
 </div>
 
 
